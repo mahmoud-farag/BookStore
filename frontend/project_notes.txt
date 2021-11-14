@@ -1,0 +1,112 @@
+1- custom file must be imports by its extenion like examp: const data = require('data.js')
+2- watch videos about how to debugging nodJS && reactJS 
+3- setting loading span and error messages 2:00
+4- setting eslint to auto detect unused variables and un defined parameters 2:10
+
+====still uncompleted ========
+1- error message page.
+
+
+==========vscode shortcuts==================================
+1- toggle the side bar                                     ==> ctrl +b
+2- toggle the built-in terminal                            ==> ctrl + ~ 
+3- opening the settings                                    ==> ctrl +,
+4- quick search about a file                               ==> ctrl + p
+5- tabing throught the opened tabes                        ==> ctrl + tab (forward), ctrl +shitf +tab (backword)
+6- spilt the editor                                        ==> ctrl + \
+7- closing the active file path                            ==> ctrl + w
+8- search and replace from the current file                ==> ctrl + f
+9- glovbal search and replace inside the current dire      ==> ctrl + shift + f
+10- excute specific command                                ==> ctrl + shift + p
+11- toggling a commented line/s                            ==> ctrl + /
+12- moving a word per 1 move                               ==> hold ctrl + right / left 
+13- duplicate the current line                             ==> shift + alt + up/down 
+14- multiple cursers                                       ==> ctrl + alt + shift + up/down
+15- highlighted one word inside the entire file            ==> select the word + ctrl + d
+16- highlighted one word inside the entire file
+    && create multipe cursers                             ==> ctrl + shift + l
+17- going to a function body                              ==> ctrl + mouse
+18-  zen mode                                             ==> ctrl+shift+p +zen mode +enter             
+19- auto build the meta commponent structure              ==> rfc + tab
+
+
+
+
+==========tips and tricks of reactJS========
+1- props.match.params.id    ==> to get a variable from URL.
+2- how to enable emmets on vscode  "emmet.includeLanguages":{
+                                                         "javascript":"javascriptreact"
+                                                             }
+3- to be able to use import --- from --- in node js ===> then just type this json attribute 
+on the package.json  "type":"module", then it will work fine 
+
+4- conditional rendering syntax  ===> { part1 > part2 && (the rendering part)}
+5-  how to get optional data from URL  ===>  props.location.search.split('=')[1]
+6- to create new route on react routerDom ==> props.history.push();
+7- create stateless component ==> sfc example  const  = () => {
+                                                         return (  );
+                                                            }
+ 
+                                                        export default ;
+8-  the deference between Link(react-router-dom) VS a (anchor tag)
+         Link ===> page not refreshed.
+         a    ===> the whole page get refreshed.
+=== packages and libs ======
+
+1- eslint extion and npm modules   ===> to detect any error on the syntax
+
+
+
+
+
+=========ES6 features============
+
+1-  array spreed operator   (...)  ===>  example:  let combine = [...arr1, ...arr2];
+
+
+
+
+====DB and Express tips========
+1-npm i  express-async-handler ----> a module used to handle the async functions if it returned an errors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

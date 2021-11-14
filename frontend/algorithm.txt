@@ -1,0 +1,63 @@
+
+===>Add to Crat "ALGORITHM".
+
+
+1- create AddToCartAction ();   done
+2- Create AddToCart Constants;   done
+3- create AddToCartReducer();    done
+4- Add AddToCartReducer to the Main store.  done
+5- create AddToCart screen and implement its logic.  done
+6- configure the initial cart state using the localStorage.
+70 impelement badge label
+
+===> Build cart Screen 'ALGORITHM'.
+1- create 2 columns for cart items and cart action.
+2- cartItems.length === = ? cart is empty.
+3- show item name, image,QTY and price.
+4- proceed to checkOut button.
+5- implement remove from cart action.
+
+==> Remove from cart screen 'ALGORITHM'
+1- impelement remove constants, action , reducer from cart screen.
+2- add remove from cart screen reducer into store.
+3- dispatch remove_from_cart_action from cart screen.
+
+==> creating register Screen
+1- create registerScreen.js
+2- implement  redux state management for this page  
+        1- create Constants.
+        2- create action.
+        3- create reducer.
+        4- add the register reducer into store
+
+==> create orderScreen 
+1- create order constants. >>> done
+2- create order action, reducer. >>> done
+3- add the reducer into store.
+4- create orderScreen.
+5- dispatch getOrder.
+
+
+//////////////////////////////////////////////
+backend algorithms
+/////////////////////////
+
+
+==> create Sign in route.
+1- create /api/users/signIn route.
+2- check  email && password (user data).
+3- create mdelware to create JWT.
+4- return token as a parameter on the res object.
+5- testing the route by postman.
+
+==> creating register  backend route 
+1- create /api/users/register.  >> done
+2- fetch data from req(frontend). >> done 
+3- validate it firstly. >> not done yet
+4- add it to the DB users collection. >> done
+5- return Ok message if every thing is ok.  >> done
+6- error handling >> done
+
+==> create fetch order api
+1- create getOrderById router
+2- create getOrderById controller 
